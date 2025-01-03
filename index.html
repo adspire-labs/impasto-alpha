@@ -163,6 +163,7 @@
                 font-size: 20px; /* Default font size */
                 padding: 20px 30px; /* Default padding */
                 transition: all 0.3s ease;
+                display: inline-block; /* Ensure it is inline but allows width control */
             }
         
             /* Button Hover Effect */
@@ -178,11 +179,13 @@
                     padding: 15px 25px; /* Adjusted padding for mobile */
                     width: 100%; /* Ensure the button takes up full width */
                     text-align: center; /* Center align the text */
+                    display: block; /* Stack buttons vertically */
+                    margin-bottom: 20px; /* Add space between buttons */
                 }
         
                 #slider-1-slide-1-layer-1,
                 #slider-1-slide-1-layer-2 {
-                    margin-bottom: 20px; /* Add space between buttons */
+                    margin-bottom: 20px; /* Add margin to the layers as well */
                 }
             }
         </style>
